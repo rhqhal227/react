@@ -23,7 +23,7 @@ a.btn_link:hover span{color:#fff}
 
 /* nav */
 header{width:100%;}
-header .wrapper40{position:fixed;z-index:10;}
+header .wrapper40{position:fixed;z-index:100;}
 header h1{position:relative;}
 header h1 a{font-size: 22px;font-weight:900;text-transform:uppercase;}
 
@@ -54,7 +54,7 @@ section.portfolio .portfolio_list ul li strong,
 section.portfolio .portfolio_list ul li span.txt,
 section.portfolio .portfolio_list ul li span.link{word-break:keep-all}
 section.portfolio .portfolio_list ul li strong{width:34%;margin-right:40px;font-size:40px;line-height:48px;font-weight:400}
-section.portfolio .portfolio_list ul li span.txt{width:50%;line-height:24px}
+section.portfolio .portfolio_list ul li span.txt{width:40%;line-height:24px}
 section.portfolio .portfolio_list ul li span.link{position:absolute;right:-150px;width:auto;letter-spacing:0;transition:all 0.3s;}
 section.portfolio .portfolio_list ul li .img{position:absolute;bottom:80px;right:100px;z-index:-10;opacity:0;transition:all 0.3s;}
 section.portfolio .portfolio_list ul li:nth-child(2n) .img{right:150px}

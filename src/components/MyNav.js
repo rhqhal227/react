@@ -29,7 +29,10 @@ class MyNav extends Component{
                         this.props.onChangePage(0);
                     }.bind(this)}>I'm_</a></h1>
                     <nav id="gnb">
-                        <a href="" className="btn_top">top</a>
+                        <a href="" className="btn_top" onClick={function(e){
+                        e.preventDefault();
+                        this.props.onChangePage('top');
+                    }.bind(this)}>top</a>
                         <ul className="nav">
                             {lists}
                         </ul>

@@ -72,7 +72,10 @@ class App extends Component{
                             this.setState({
                                 mode:'about'
                             })
-                        }else{
+                        }else if( id === 'top' ){
+                            window.scrollTo(0, 0);
+                        }
+                        else{
                             this.setState({
                                 mode:'main'
                             })
