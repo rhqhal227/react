@@ -25,6 +25,7 @@ class PortfolioMain extends Component{
                     href={data[i].url} 
                     className="list_wrap"
                     target="_blank"
+                    rel="noopener noreferrer"
                     title={data[i].title+' 새창'}
                     >
                         <strong>{data[i].title}</strong>
@@ -44,7 +45,7 @@ class PortfolioMain extends Component{
                     HTML, CSS, Javascript, jQuery를 사용하여 코딩합니다.<br />
                     소통하는 자세로 업무를 수행하며,<br />성장하기 위해 끊임없이 노력하겠습니다.</p>
                     <a 
-                    href="" 
+                    href="#!" 
                     className="btn_link"
                     onClick={function(e){
                         e.preventDefault();
@@ -58,7 +59,7 @@ class PortfolioMain extends Component{
                     <div className="list_more">
                         <p>My Portfolio 
                             <a 
-                            href="" 
+                            href="#!" 
                             className="btn_link"
                             onClick={function(e){
                                 e.preventDefault();

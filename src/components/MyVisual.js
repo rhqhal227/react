@@ -7,7 +7,7 @@ class MyVisual extends Component{
                 <div className="visual_txt">
                     <h2>Hello, I'm_<strong>Web<br />publisher!</strong></h2>
                     <a 
-                    href="" 
+                    href="#!" 
                     className="btn_link"
                     onClick={function(e){
                         e.preventDefault();

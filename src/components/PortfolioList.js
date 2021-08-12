@@ -5,8 +5,8 @@ class PortfolioList extends Component{
         super(props);
         this.state={
             item:[
-                {id:1, title:'DMC 페스티벌', desc:'2017 DMC 페스티벌 홈페이지 코딩 및 유지보수(모바일)', img:'./image/img_porfolio01.jpg', url:'http://dmcfestival.imbc.com/m/'},
-                {id:2, title:'2018 MBC 아시안 게임', desc:'2018 MBC 아시안 게임 홈페이지 코딩(PC)', img:'image/img_porfolio01.jpg', url:'http://2018asian.imbc.com/'},
+                {id:1, title:'DMC 페스티벌', desc:'2017 DMC 페스티벌 홈페이지 코딩 및 유지보수(모바일)', img:'./image/img_porfolio_dmc.jpg', url:'http://dmcfestival.imbc.com/m/'},
+                {id:2, title:'2018 MBC 아시안 게임', desc:'2018 MBC 아시안 게임 홈페이지 코딩(PC)', img:'./image/img_porfolio_asian.jpg', url:'http://2018asian.imbc.com/'},
                 {id:3, title:'2018 MBC 러시아월드컵', desc:'2018 MBC 러시아월드컵 홈페이지 코딩(PC, 모바일)', img:'image/img_porfolio01.jpg', url:'http://2018worldcup.imbc.com/'},
                 {id:4, title:'iMBC 개편', desc:'2018 imbc 홈페이지 개편 각 채널 메인 코딩 및 유지보수', img:'image/img_porfolio01.jpg', url:'http://www.imbc.com/'},
                 {id:5, title:'MBC news 개편', desc:'2018 MBC news 홈페이지 개편 코딩(모바일, 반응형, 모바일앱 웹뷰)', img:'image/img_porfolio01.jpg', url:'https://imnews.imbc.com/m_main.html'},
@@ -29,11 +29,10 @@ class PortfolioList extends Component{
             if(data[i].url===undefined){
                 items.push(
                     <li key={i}>
-                        <a className="list_wrap">
+                        <a href="#!" className="list_wrap">
                             <strong>{data[i].title}</strong>
                             <span className="txt">{data[i].desc}<br /><em>HTML, CSS, JavaScript, jQuery</em></span>
                         </a>
-                        <div className="img"><img src="image/img_portfolio01.jpg" alt="" /></div>
                     </li>
                 )
             }else{
@@ -43,30 +42,17 @@ class PortfolioList extends Component{
                         href={data[i].url} 
                         className="list_wrap"
                         target="_blank"
+                        rel="noopener noreferrer"
                         title={data[i].title+' 새창'}
                         >
                             <strong>{data[i].title}</strong>
                             <span className="txt">{data[i].desc}<br /><em>HTML, CSS, JavaScript, jQuery</em></span>
                             <span className="link">Visit website ↗</span>
                         </a>
-                        <div className="img"><img src="image/img_portfolio01.jpg" alt="" /></div>
+                        <div className="img"><img src={data[i].img} alt={data[i].title+' 이미지'} /></div>
                     </li>
                 )
             }
-            // items.push(
-            //     <li key={i}>
-            //         <a 
-            //         href={data[i].url} 
-            //         className="list_wrap"
-            //         target="_blank"
-            //         >
-            //             <strong>{data[i].title}</strong>
-            //             <span className="txt">{data[i].desc}<br /><em>HTML, CSS, JavaScript, jQuery</em></span>
-            //             <span className="link">Visit website ↗</span>
-            //         </a>
-            //         <div className="img"><img src="image/img_portfolio01.jpg" alt="" /></div>
-            //     </li>
-            // )
             i = i + 1;
         }
         return(

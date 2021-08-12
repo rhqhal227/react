@@ -11,7 +11,7 @@ class MyFooter extends Component{
                         <li>010 4670 2538</li>
                         <li><a className="btn_link" href="mailto:rhqhal227@naver.com"><span>rhqhal227@naver.com</span></a></li>
                     </ul>
-                    <a href="https://www.instagram.com/kbm_327/" target="_blank" title="instagram 새창" className="btn_link sns"><span>instagram ↗</span></a>
+                    <a href="https://www.instagram.com/kbm_327/" target="_blank" title="instagram 새창" rel="noopener noreferrer" className="btn_link sns"><span>instagram ↗</span></a>
                 </div>
             </footer>
         )

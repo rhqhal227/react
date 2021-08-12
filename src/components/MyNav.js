@@ -24,12 +24,12 @@ class MyNav extends Component{
         return(
             <header>
                 <div className="wrapper40">
-                    <h1><a href="" onClick={function(e){
+                    <h1><a href="#!" onClick={function(e){
                         e.preventDefault();
                         this.props.onChangePage(0);
                     }.bind(this)}>I'm_</a></h1>
                     <nav id="gnb">
-                        <a href="" className="btn_top" onClick={function(e){
+                        <a href="#!" className="btn_top" onClick={function(e){
                         e.preventDefault();
                         this.props.onChangePage('top');
                     }.bind(this)}>top</a>

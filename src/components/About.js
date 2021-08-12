@@ -94,8 +94,8 @@ class About extends Component{
                                     <strong>유비크코리아</strong>
                                     <p>
                                         웹디자인 및 퍼블리싱(워드프레스 사용)<br />
-                                        - Rapigen : <a href="http://rapigen-inc.com/wp/" target="_blank">http://rapigen-inc.com/wp/</a><br />
-                                        - Uwin C&T : <a href="http://ifromkorea.com/" target="_blank">http://ifromkorea.com/</a><br />
+                                        - Rapigen : <a href="http://rapigen-inc.com/wp/" target="_blank" rel="noopener noreferrer" title="새창">http://rapigen-inc.com/wp/</a><br />
+                                        - Uwin C&T : <a href="http://ifromkorea.com/" target="_blank" rel="noopener noreferrer" title="새창">http://ifromkorea.com/</a><br />
                                         등
                                     </p>
                                 </div>
