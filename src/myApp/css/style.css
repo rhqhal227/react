@@ -73,7 +73,7 @@ section.portfolio .portfolio_list ul li:hover span.link{right:0}
 section.portfolio .portfolio_list .list_more p,
 section.portfolio .portfolio_list .list_more a.btn_link{font-size:20px}
 section.portfolio .portfolio_list .list_more a.btn_link{vertical-align:bottom;margin-left:15px}
-footer{background-color:#eee;padding:80px 0}
+footer{background-color:#eee;padding:80px 20px}
 footer .wrapper{display:flex;align-items:center}
 footer h2{font-size:48px;margin-right:100px;font-weight:600}
 footer ul li{margin-top:15px;font-size:20px;line-height:24px}
@@ -107,10 +107,10 @@ footer a.sns{position:absolute;right:0}
     html, body{min-width:100%}
     .wrapper{width:100%;padding:0 20px;box-sizing:border-box}
     .wrapper40{padding:20px}
+    header nav#gnb{top:20px;right:20px}
  }
 
  @media screen and (max-width:540px) { 
-    header nav#gnb{top:20px;right:20px}
     section.visual{margin-bottom:60px}
     section.visual h2{font-size:20px}
     section.visual h2 strong{font-size:56px;line-height:56px;font-weight:600}
