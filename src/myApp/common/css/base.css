@@ -23,11 +23,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 figure{padding:0px; margin:0px;}
 
 /* 링크 기본값 */
-a:link{text-decoration:none;}
-a:visited{text-decoration:none;}
-a:hover{text-decoration:none;}
-a:active{text-decoration:none;}
-a:focus{text-decoration:none;}
+a:link{text-decoration:none;color:#333}
+a:visited{text-decoration:none;color:#333}
+a:hover{text-decoration:none;color:#333}
+a:active{text-decoration:none;color:#333}
+a:focus{text-decoration:none;color:#333}
 
 /* 리스트 스타일 제거 */
 ul,ol,li{list-style:none;}

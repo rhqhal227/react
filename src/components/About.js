@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 
 class About extends Component{
     render(){
+        document.addEventListener("DOMContentLoaded", function(){
+            document.getElementById('bodyMode').className = 'body_wrap body_about';
+        });
         return(
             <section className="about wrapper">
                 <h2 className="title about_title">About</h2>
