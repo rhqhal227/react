@@ -73,7 +73,7 @@ class MyMain extends Component{
                         HTML, CSS, Javascript, jQuery를 사용하여 코딩합니다.<br />
                         소통하는 자세로 업무를 수행하며,<br />성장하기 위해 끊임없이 노력하겠습니다.</p>
                         <Link 
-                        to="/About"
+                        to="/react/About"
                         className="btn_link"
                         onClick={function(){
                             this.props.onChangePage(2);
@@ -86,7 +86,7 @@ class MyMain extends Component{
                         <div className="list_more">
                             <p>My Portfolio
                                 <Link 
-                                to="/Portfolio"
+                                to="/react/Portfolio"
                                 className="btn_link"
                                 onClick={function(){
                                     this.props.onChangePage(1);
