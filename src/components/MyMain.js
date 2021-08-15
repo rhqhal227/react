@@ -55,7 +55,7 @@ class MyMain extends Component{
                         <div className="visual_txt">
                             <h2>Hello, I'm_<strong>Web<br />publisher!</strong></h2>
                             <Link 
-                            to="/Portfolio"
+                            to="/react/Portfolio"
                             className="btn_link"
                             onClick={function(){
                                 this.props.onChangePage(1);
