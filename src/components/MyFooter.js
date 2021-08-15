@@ -5,9 +5,9 @@ class MyFooter extends Component{
         return(
             <footer>
                 <div className="wrapper">
-                    <h2>Say, Hello!</h2>
+                    <h2>Say, Hello!😎</h2>
                     <ul className="info">
-                        <li>서울시 서대문구 홍제동 106-13 1층</li>
+                        <li>서울시 서대문구 홍제동 문화촌길 106-13 1층</li>
                         <li>010 4670 2538</li>
                         <li><a className="btn_link" href="mailto:rhqhal227@naver.com"><span>rhqhal227@naver.com</span></a></li>
                     </ul>

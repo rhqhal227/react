@@ -7,7 +7,7 @@ class About extends Component{
         });
         return(
             <section className="about wrapper">
-                <h2 className="title about_title">About</h2>
+                <h2 className="title about_title">About🙂</h2>
                 <div className="about_txt">
                     <p>안녕하세요, 저는 웹퍼블리셔입니다.<br />
                     다양한 경험을 통해 배운 긍정적인 소통 방식과<br />

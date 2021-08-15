@@ -60,7 +60,7 @@ class PortfolioList extends Component{
         }
         return(
             <section className="portfolio wrapper">
-                <h2 className="title portfolio_title">portfolio</h2>
+                <h2 className="title portfolio_title">portfolio📝</h2>
                 <div className="portfolio_list">
                     <ul>{items}</ul>
                 </div>

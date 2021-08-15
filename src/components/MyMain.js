@@ -53,7 +53,7 @@ class MyMain extends Component{
                 <section className="visual">
                     <div class="wrapper">
                         <div className="visual_txt">
-                            <h2>Hello, I'm_<strong>Web<br />publisher!</strong></h2>
+                            <h2>Hello, I'm_<strong>Web<br />publisher!</strong><br /><i>👩‍💻💻📁</i></h2>
                             <Link 
                             to="/react/Portfolio"
                             className="btn_link"
