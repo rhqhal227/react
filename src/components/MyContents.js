@@ -15,7 +15,7 @@ class MyContents extends Component{
                     <CSSTransition key={location.key} timeout={500} classNames="fade">
                     <Switch>
                         <Route 
-                        path="/react" 
+                        path="/react/" 
                         render={() => <MyMain
                             mode={this.props.mode}
                             onChangePage={function(id){
@@ -26,7 +26,7 @@ class MyContents extends Component{
                         >
                         </Route>
                         <Route path="/react/Portfolio" component={PortfolioList}></Route>
-                        <Route path="react/About" component={About}></Route>
+                        <Route path="/react/About" component={About}></Route>
                     </Switch>
                     </CSSTransition>
                     </TransitionGroup>

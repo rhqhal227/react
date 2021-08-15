@@ -27,7 +27,7 @@ class MyNav extends Component{
                 <div className="wrapper40">
                     <h1>
                         <Link 
-                        to="/react"
+                        to="/react/"
                         onClick={function(){
                             this.props.onChangePage(0);
                         }.bind(this)}
