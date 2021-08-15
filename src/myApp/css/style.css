@@ -107,7 +107,7 @@ footer a.sns{position:absolute;right:0}
     html, body{min-width:100%}
     .wrapper{width:100%;padding:0 20px;box-sizing:border-box}
     .wrapper40{padding:20px}
-    header nav#gnb{top:20px;right:20px}
+    header nav#gnb{top:20px;right:20px;background-color:#rgba(255,255,255,0.8)}
  }
 
  @media screen and (max-width:540px) { 
@@ -128,8 +128,8 @@ footer a.sns{position:absolute;right:0}
     section.portfolio .portfolio_list ul li span.txt,
     section.portfolio .portfolio_list ul li span.link{display:block;width:100%}
     section.portfolio .portfolio_list ul li strong{margin-bottom:15px;font-size:24px;line-height:28px;font-weight:600}
-    section.portfolio .portfolio_list ul li span.txt{font-size:14px;line-height:23px;margin-bottom:30px;}
-    section.portfolio .portfolio_list ul li span.link{position:static;font-size:14px;color:#ccc;text-decoration:underline;}
+    section.portfolio .portfolio_list ul li span.txt{font-size:14px;line-height:23px;}
+    section.portfolio .portfolio_list ul li span.link{position:static;margin-top:30px;font-size:14px;color:#ccc;text-decoration:underline;}
     section.portfolio .portfolio_list ul li:hover .img{display:none}
     footer{padding:40px 0;text-align:center}
     footer h2{width:100%;margin-bottom:30px;font-size:40px}
