@@ -47,7 +47,7 @@ section.visual{width:100%;padding-top:140px;margin-bottom:270px;box-sizing:borde
 section.visual .visual_txt{position:relative;z-index:10}
 section.visual h2{margin-bottom:120px;font-size:36px;}
 section.visual h2 strong{display:block;margin-top:10px;font-size:136px;line-height:126px;font-weight:400}
-section.visual h2 i{display:block;margin-top:15px;font-size:50px}
+section.visual h2 i{display:block;margin-bottom:24px;font-size:50px}
 section.visual .visual_txt a{font-size:32px;color:#f1be22}
 section.visual .visual_txt a:before{background-color:#f1be22}
 section.visual .visual_bg{position:absolute;top:180px;left:36%;}
@@ -115,7 +115,7 @@ footer a.sns{position:absolute;right:0}
     section.visual{margin-bottom:60px}
     section.visual h2{font-size:20px}
     section.visual h2 strong{font-size:56px;line-height:56px;font-weight:600}
-    section.visual h2 i{display:block;margin-top:5px;font-size:26px}
+    section.visual h2 i{display:block;margin-bottom:14px;font-size:26px}
     section.visual .visual_txt a.btn_link:before{height:100%}
     section.visual .visual_txt a.btn_link span{color:#fff}
     section.visual .visual_bg{top:10%;left:30%;width:300px;height:400px;overflow:hidden}
