@@ -9,7 +9,7 @@ class About extends Component{
             <section className="about wrapper">
                 <h2 className="title about_title">About🙂</h2>
                 <div className="about_txt">
-                    <p>안녕하세요, 저는 웹퍼블리셔입니다.<br />
+                    <p>안녕하세요, 저는 front-end 개발자입니다.<br />
                     다양한 경험을 통해 배운 긍정적인 소통 방식과<br />
                     업무에 필요한 스킬을 활용하여 업무를 수행하겠습니다.<br />
                     감사합니다.</p>

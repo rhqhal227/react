@@ -112,14 +112,14 @@ footer a.sns{position:absolute;right:0}
     header nav#gnb{top:20px;right:20px;}
  }
 
- @media screen and (max-width:540px) { 
+ @media screen and (max-width:720px) { 
     section.visual{margin-bottom:60px}
     section.visual h2{font-size:20px}
     section.visual h2 strong{font-size:56px;line-height:56px;font-weight:600}
     section.visual h2 i{display:block;margin-bottom:14px;font-size:26px}
     section.visual .visual_txt a.btn_link:before{height:100%}
     section.visual .visual_txt a.btn_link span{color:#fff}
-    section.visual .visual_bg{top:10%;left:30%;width:300px;height:400px;overflow:hidden}
+    section.visual .visual_bg{top:30%;left:30%;width:300px;height:400px;overflow:hidden}
     section.visual .visual_bg img{width:auto;height:100%;margin-left:-50%}
     section.visual .visual_txt a{font-size:20px}
     footer .wrapper{display:block}
