@@ -66,6 +66,7 @@ section.portfolio .portfolio_list ul li span.txt,
 section.portfolio .portfolio_list ul li span.link{word-break:keep-all}
 section.portfolio .portfolio_list ul li strong{width:34%;margin-right:40px;font-size:40px;line-height:50px;font-weight:400}
 section.portfolio .portfolio_list ul li span.txt{width:40%;line-height:24px}
+section.portfolio .portfolio_list ul li span.txt em{font-size:12px}
 section.portfolio .portfolio_list ul li span.link{position:absolute;right:-150px;width:auto;letter-spacing:0;transition:all 0.3s;}
 section.portfolio .portfolio_list ul li .img{position:absolute;bottom:80px;right:100px;z-index:-10;opacity:0;transition:all 0.3s;}
 section.portfolio .portfolio_list ul li:nth-child(2n) .img{right:150px}
@@ -132,6 +133,7 @@ footer a.sns{position:absolute;right:0}
     section.portfolio .portfolio_list ul li span.link{display:block;width:100%}
     section.portfolio .portfolio_list ul li strong{margin-bottom:15px;font-size:24px;line-height:28px;font-weight:600}
     section.portfolio .portfolio_list ul li span.txt{font-size:14px;line-height:23px;}
+    section.portfolio .portfolio_list ul li span.txt em{font-size:11px}
     section.portfolio .portfolio_list ul li span.link{position:static;margin-top:30px;font-size:14px;color:#ccc;text-decoration:underline;}
     section.portfolio .portfolio_list ul li:hover .img{display:none}
     footer{padding:40px 0;text-align:center}

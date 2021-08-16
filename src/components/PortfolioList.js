@@ -17,7 +17,8 @@ class PortfolioList extends Component{
                 {id:10, title:'MBC와 함께', desc:'MBC와 함께 홈페이지 개편 코딩 및 유지보수(모바일)', img:'image/img_portfolio_with.jpg', url:'http://with.mbc.co.kr/m/'},
                 {id:11, title:'MBC 아카이브', desc:'MBC 아카이브 홈페이지 개편 코딩(PC)', img:'image/img_portfolio_acv.jpg', url:'https://www.mbcarchive.com/include/default.html'},
                 {id:12, title:'iMBC 고객센터', desc:'iMBC 고객센터 홈페이지 개편 코딩 및 유지보수(PC, 모바일, 관리자툴)', img:'image/img_portfolio_help.jpg', url:'http://help.imbc.com/faq/pc_index'},
-                {id:13, title:'iMBC 게시판', desc:'iMBC 게시판 PC버전 개편 코딩'}
+                {id:13, title:'iMBC 게시판', desc:'iMBC 게시판 PC버전 개편 코딩'},
+                {id:14, title:'iMBC 홈페이지 유지보수', desc:'WIZ 코드 활용, 라디오 개편, 프로그램 이슈, 이벤트 등 iMBC 홈페이지 관련 이슈 코딩 및 유지보수'}
             ]
         }
     }
@@ -34,7 +35,7 @@ class PortfolioList extends Component{
                     <li key={i}>
                         <a href="#!" className="list_wrap">
                             <strong>{data[i].title}</strong>
-                            <span className="txt">{data[i].desc}<br /><em>HTML, CSS, JavaScript, jQuery</em></span>
+                            <span className="txt">{data[i].desc}<br /><em>- HTML, CSS, JavaScript, jQuery</em></span>
                         </a>
                     </li>
                 )
@@ -49,7 +50,7 @@ class PortfolioList extends Component{
                         title={data[i].title+' 새창'}
                         >
                             <strong>{data[i].title}</strong>
-                            <span className="txt">{data[i].desc}<br /><em>HTML, CSS, JavaScript, jQuery</em></span>
+                            <span className="txt">{data[i].desc}<br /><em>- HTML, CSS, JavaScript, jQuery</em></span>
                             <span className="link">Visit website ↗</span>
                         </a>
                         <div className="img"><img src={data[i].img} alt={data[i].title+' 이미지'} /></div>

@@ -39,7 +39,7 @@ class MyMain extends Component{
                         title={data[i].title+' 새창'}
                         >
                             <strong>{data[i].title}</strong>
-                            <span className="txt">{data[i].desc}<br /><em>HTML, CSS, JavaScript, jQuery</em></span>
+                            <span className="txt">{data[i].desc}<br /><em>- HTML, CSS, JavaScript, jQuery</em></span>
                             <span className="link">Visit website ↗</span>
                         </a>
                         <div className="img"><img src={data[i].img} alt={data[i].title+' 이미지'} /></div>
