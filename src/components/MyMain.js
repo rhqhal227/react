@@ -10,7 +10,7 @@ class MyMain extends Component{
                 {id:2, title:'MBC news 개편', desc:'2018 MBC news 홈페이지 개편 코딩(모바일, 반응형, 모바일앱 웹뷰)', img:'image/img_portfolio_news.jpg', url:'https://imnews.imbc.com/m_main.html'},
                 {id:3, title:'2020 국회의원 총선', desc:'2020 국회의원 총선 홍보 및 개표 홈페이지 코딩(모바일)', img:'image/img_portfolio_vote.jpg', url:'https://imnews.imbc.com/issue/vote2020/elect/m/gp.html'},
                 {id:4, title:'MBC 시청자 소통센터', desc:'MBC 시청자 소통센터 홈페이지 개편 코딩 및 유지보수', img:'image/img_portfolio_center.jpg', url:'http://withmbc.imbc.com/center'},
-                {id:5, title:'MBC와 함께', desc:'MBC와 함께 홈페이지 개편 코딩 및 유지보수(모바일)', img:'image/img_portfolio_with.jpg', url:'http://with.mbc.co.kr/m/'},
+                {id:5, title:'MBC와 함께', desc:'MBC와 함께 홈페이지 개편 코딩 및 유지보수(모바일)', img:'image/img_portfolio_with.jpg', url:'http://with.mbc.co.kr/m/'}
             ]
         }
     }
@@ -53,7 +53,7 @@ class MyMain extends Component{
                 <section className="visual">
                     <div class="wrapper">
                         <div className="visual_txt">
-                            <h2><i>👩‍💻</i>Hello, I'm_<strong>Front-end<br />Developer</strong><br /></h2>
+                            <h2><i>👩‍💻</i>Hello, I'm a_<strong>Web Publisher</strong><br /></h2>
                             <Link 
                             to="/react/Portfolio"
                             className="btn_link"
