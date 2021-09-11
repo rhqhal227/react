@@ -69,7 +69,7 @@ class MyMain extends Component{
                 <section className="portfolio wrapper">
                 <div className="portfolio_txt">
                     <h2 className="blind">portfolio</h2>
-                        <p>저는 <em>front-end</em> 개발자입니다.<br />
+                        <p>저는 <em>웹퍼블리셔</em>입니다.<br />
                         HTML, CSS, Javascript, jQuery를 사용하여 코딩합니다.<br />
                         소통하는 자세로 업무를 수행하며,<br />성장하기 위해 끊임없이 노력하겠습니다.</p>
                         <Link 
